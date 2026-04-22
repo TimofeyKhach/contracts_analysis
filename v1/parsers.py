@@ -1,7 +1,5 @@
 import requests
 from bs4 import BeautifulSoup
-import pandas as pd
-import time
 import re
 
 from config import URL_MAIN, URL_CONTRACT, HEADERS, COOKIES, PARAMS

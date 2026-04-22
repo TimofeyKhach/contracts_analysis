@@ -28,8 +28,8 @@ def main():
             supplier_info = parse_supplier_info(card_html)
             full_contract = {**contract, **supplier_info}
             all_data.append(full_contract)            
-            time.sleep(0.5)
-        time.sleep(1)
+            time.sleep(2)
+        time.sleep(5)
 
     if all_data:
         raw_file = 'contracts_raw.csv'
